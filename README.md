@@ -1,6 +1,7 @@
+# (El formato acá está un poco roto, se ve mejor en el archivo documentacion.txt)
+
 # tp2entregafinal
 Entrega final de TP 2 ORT 2020
-(El formato acá está un poco roto, se ve mejor en el archivo documentacion.txt)
 
 ******************************************************
 Nombre, descripción, y características de cada recurso
