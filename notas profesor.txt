@@ -1,0 +1,48 @@
+servicio de temporizacion:
+
+(guarda en memoria los eventos)
+crear evento recurrente
+cancelar evento recurrente
+
+=======================================
+// se ejecuta una vez cuando inicia el servidor
+
+cu: temporizar CUs
+
+necesita: temporizador
+
+recibe: CU, frecuencia
+
+hace: le dice al temporizador que ejecute el cu segun intervalo dado
+
+=======================================
+
+cu01: notificar cambios de monedas a subscriptores
+
+necesita: mailer, exchanger, dao suscripciones
+
+recibe:  -
+
+hace: 
+        recorre suscripciones
+        notificacion
+        desuscribe
+
+=======================================
+
+cu: suscribir
+
+necesita: dao suscripciones
+
+recibe: mail, ...
+
+hace: crea una subscripcion 
+=======================================
+
+cu: desuscribir
+
+necesita: dao suscripciones
+
+recibe: id
+
+hace: borra una subscripcion 

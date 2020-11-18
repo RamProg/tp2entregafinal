@@ -1,0 +1,24 @@
+{
+  "name": "tp5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "notify.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test_notify": "node ./notify/test/notify.test.js",
+    "test_temporizer": "node ./temporizer/test/temporizer.test.js",
+    "test_temporizeaction": "node ./temporizeAction/test/temporizeAction.test.js",
+    "test_subscribe": "node ./subscribe/test/subscriber.test.js",
+    "test_unsubscribe": "node ./unsubscribe/test/unsubscriber.test.js",
+    "test_connection": "node ./database/test/connection.test.js",
+    "start": "node ./server/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.3",
+    "uuid": "^8.3.1"
+  }
+}
